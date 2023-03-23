@@ -4,7 +4,7 @@ const moviesList = [];
 
 const fetchMovies = async () => {
   let details = await fetch(
-    "https://api.themoviedb.org/3/movie/popular?api_key=ff29df6664fc09dedee49f08a4e6e998"
+    "https://api.themoviedb.org/3/movie/popular?api_key=your-aplhanumeric-api-key"
   );
   const { results } = await details.json();
 
